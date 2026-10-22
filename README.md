@@ -24,8 +24,8 @@ Le client est structuré en trois couches pour séparer les responsabilités :
 
 * **Environnement de développement** : IntelliJ IDEA (version 2023.3.3) utilisé pour l'écriture du code, et outils en ligne de commande (terminal) pour la compilation et l'exécution.
 
-* **Version du JDK** : Java 21.
-
+* **Version du JDK** : Java 17 ou supérieur (le projet créé sous Java 21).
+  
 * **Dépendances** : Aucune dépendance externe, RMI natif uniquement.
 
 * **Ports et Registre** : Utilisation du port standard **1099**. Le registre RMI est instancié directement de manière embarquée (mode interne) par l'application serveur pour simplifier le déploiement.
